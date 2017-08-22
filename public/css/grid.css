@@ -1,0 +1,23 @@
+.grid-wrapper{
+   display: grid;
+   grid-template-columns: .1fr 1fr .1fr;
+   grid-gap: 10px;
+   align-items: center;
+   grid-template-areas:
+      ". . ."
+      ". pic ."
+      ". . .";
+}
+
+.grid-box{
+   align-self: center;
+   justify-self: center;
+}
+
+.blank{
+   grid-area: blank;
+}
+
+.pic{
+   grid-area: pic;
+}
